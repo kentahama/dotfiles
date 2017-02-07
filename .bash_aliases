@@ -6,5 +6,5 @@ emacs () {
     if [ ! -e /tmp/emacs$UID/server ]; then
 	/usr/bin/emacs --daemon
     fi
-    emacsclient -c $@
+    emacsclient $@
 }
