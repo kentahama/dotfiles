@@ -1,6 +1,7 @@
 (require 'mozc)
 (set-language-environment "Japanese")
 (setq default-input-method "japanese-mozc")
+(prefer-coding-system 'utf-8)
 
 (global-set-key (kbd "<zenkaku-hankaku>") 'toggle-input-method)
 (add-hook 'mozc-mode-hook
