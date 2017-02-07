@@ -1,3 +1,12 @@
+(require 'mozc)
+(set-language-environment "Japanese")
+(setq default-input-method "japanese-mozc")
+
+(global-set-key (kbd "<zenkaku-hankaku>") 'toggle-input-method)
+(add-hook 'mozc-mode-hook
+  (lambda()
+    (define-key mozc-mode-map (kbd "<zenkaku-hankaku>") 'toggle-input-method)))
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
