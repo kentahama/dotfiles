@@ -1,0 +1,7 @@
+[user]
+	name = Kenta Hamanaka
+	email = kenta.hamanaka@gmail.com
+[alias]
+	st = status
+	logg = log --graph --oneline --decorate
+	br = branch
