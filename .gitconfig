@@ -1,7 +1,14 @@
 [user]
-	name = Kenta Hamanaka
 	email = kenta.hamanaka@gmail.com
+	name = Kenta Hamanaka
 [alias]
 	st = status
-	logg = log --graph --oneline --decorate
+	ci = commit
 	br = branch
+	rb = rebase
+	ch = checkout
+	re = reset
+	sw = switch
+	logg = log --graph --oneline
+[core]
+	editor = emacs
