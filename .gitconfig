@@ -9,6 +9,7 @@
 	ch = checkout
 	re = reset
 	sw = switch
+	chp = cherry-pick
 	logg = log --graph --oneline
 [core]
 	editor = emacs
