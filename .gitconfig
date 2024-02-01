@@ -13,3 +13,6 @@
 	logg = log --graph --oneline
 [core]
 	editor = emacs
+        quotepath = false
+[url "ssh://git@github.com/"]
+        insteadOf = https://github.com/
